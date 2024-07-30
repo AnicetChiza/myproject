@@ -230,8 +230,21 @@ header {
 .item-box {
     padding: 20px 30px;
     border-radius: 5px;
+    height: fit-content;
     background-color: #fff;
     box-shadow: 0px 1px 10px #ddd;
+}
+
+.item-box p {
+    margin-bottom: 0;
+}
+
+.item-box:nth-child(2) {
+    margin-top: -40px;
+}
+
+.item-box:nth-child(4) {
+    margin-top: -40px;
 }
 
 .item-box i {
