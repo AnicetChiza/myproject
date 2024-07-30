@@ -75,12 +75,12 @@ header {
 }
 
 .header-list ul li a:hover {
-    color: #37517e;
+    color: #fff;
 }
 
 .header-list ul .active {
-    color: #37517e;
-    border-bottom: 1px solid #37517e;
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .cart i {
@@ -106,7 +106,7 @@ header {
     align-items: center;
     justify-content: center;
     -webkit-column-gap: 15px;
-    background: linear-gradient(to bottom, #37517e 0%, #ebebebce 100%), url(../images/home/home-1.jpg) fixed no-repeat;
+    background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/home-4.jpg) fixed no-repeat;
     background-size: cover;
 }
 
