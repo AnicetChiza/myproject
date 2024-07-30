@@ -117,5 +117,12 @@ header {
 
 .cover-page p {
     width: 50%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+}
+
+.cover-page a {
+    padding: 10px 25px;
+    color: #37517e;
+    border-radius: 20px;
+    background-color: #fff;
 }
