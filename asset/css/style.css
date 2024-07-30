@@ -32,4 +32,5 @@ h6 {
 body {
     font-size: 1rem;
     font-family: "Kulim Park", sans-serif;
+    background-image: url(../images/body-bg.png);
 }
