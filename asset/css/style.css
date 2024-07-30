@@ -102,7 +102,14 @@ header {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     -webkit-column-gap: 15px;
+    background: linear-gradient(to bottom, #37517e 0%, #ebebebce 100%), url(../images/home/home-1.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
+.cover-page p {
+    width: 60%;
 }
