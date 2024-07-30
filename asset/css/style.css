@@ -97,19 +97,25 @@ header {
 /-------------------------- */
 
 .cover-page {
+    gap: 15px;
     width: 100%;
     height: 100vh;
     display: flex;
+    text-align: right;
+    padding: 10px 80px;
+    align-items: flex-end;
     flex-direction: column;
-    gap: 15px;
-    text-align: center;
-    align-items: center;
     justify-content: center;
     -webkit-column-gap: 15px;
     background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/home-4.jpg) fixed no-repeat;
     background-size: cover;
 }
 
+.cover-page h2 {
+    font-size: 2rem;
+}
+
 .cover-page p {
-    width: 60%;
+    width: 50%;
+    font-size: 1.2rem;
 }
