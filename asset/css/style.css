@@ -60,7 +60,7 @@ h6 {
     display: block;
     width: 40px;
     height: 3px;
-    background: #37517e;
+    background: #1977cc;
     bottom: 0;
     left: calc(50% - 20px);
 }
@@ -179,10 +179,6 @@ header {
     background-size: cover;
 }
 
-.cover-page div {
-    padding: 10px 80px;
-}
-
 .cover-page div h2 {
     font-size: 2rem;
 }
@@ -201,3 +197,8 @@ header {
     border-radius: 20px;
     background-color: #fff;
 }
+
+
+/*---------------------------/
+#About us
+/-------------------------- */
