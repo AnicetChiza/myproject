@@ -45,6 +45,8 @@ body {
 header {
     width: 100%;
     display: flex;
+    position: fixed;
+    z-index: 1000;
     padding: 15px 80px;
     justify-content: space-between;
 }
@@ -87,4 +89,20 @@ header {
     color: #141b1fda;
     background-color: #fff;
     box-shadow: 0px 1px 10px #d1d1d1ed;
+}
+
+
+/*---------------------------/
+#Home-page
+/-------------------------- */
+
+.cover-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    -webkit-column-gap: 15px;
 }
