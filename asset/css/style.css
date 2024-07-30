@@ -246,5 +246,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d5e3f99d;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #edededed;
+}
+
+.item-box:hover {
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 10px #edededed;
+    background-color: #fff;
 }
