@@ -65,6 +65,13 @@ h6 {
     left: calc(50% - 20px);
 }
 
+.padding {
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
 
 /*---------------------------/
 #Body
