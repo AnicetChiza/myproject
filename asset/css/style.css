@@ -52,14 +52,18 @@ header {
 }
 
 .header-list {
-    gap: 15px;
+    gap: 20px;
     display: flex;
     align-items: center;
-    -webkit-column-gap: 15px;
+    -webkit-column-gap: 20px;
 }
 
 .header-list ul {
     display: flex;
-    gap: 15px;
-    -webkit-column-gap: 15px;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+}
+
+.header-list ul li a {
+    color: #141b1fda;
 }
