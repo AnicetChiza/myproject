@@ -68,6 +68,12 @@ header {
 
 .header-list ul li a {
     color: #141b1fda;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in;
+}
+
+.header-list ul li a:hover {
+    color: #37517e;
 }
 
 .header-list ul .active {
