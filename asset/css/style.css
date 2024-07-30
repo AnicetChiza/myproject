@@ -203,3 +203,14 @@ header {
 /*---------------------------/
 #About us
 /-------------------------- */
+
+.about-text span {
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: #37517e;
+}
+
+.about-text p {
+    margin-top: 20px;
+}
