@@ -32,6 +32,7 @@ h6 {
 body {
     font-size: 1rem;
     color: #141b1fda;
+    font-weight: 600;
     font-family: "Sulphur Point", sans-serif;
     background-image: url(../images/body-bg.png);
 }
@@ -67,6 +68,11 @@ header {
 
 .header-list ul li a {
     color: #141b1fda;
+}
+
+.header-list ul .active {
+    color: #37517e;
+    border-bottom: 1px solid #37517e;
 }
 
 .cart i {
