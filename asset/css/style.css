@@ -171,8 +171,8 @@ header {
     width: 100%;
     height: 100vh;
     display: flex;
-    text-align: right;
-    align-items: flex-end;
+    text-align: center;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     -webkit-column-gap: 15px;
@@ -185,17 +185,18 @@ header {
 }
 
 .cover-page div p {
-    width: 50%;
+    width: 60%;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
+    margin-right: auto;
     font-size: 1.1rem;
 }
 
 .cover-page div a {
-    padding: 10px 25px;
+    padding: 15px 25px;
     color: #37517e;
-    border-radius: 20px;
+    border-radius: 25px;
     background-color: #fff;
 }
 
@@ -213,9 +214,9 @@ header {
 }
 
 .all-items {
-    gap: 20px;
+    gap: 25px;
     display: grid;
-    -webkit-column-gap: 20px;
+    -webkit-column-gap: 25px;
     grid-template-columns: auto auto;
 }
 
@@ -265,6 +266,7 @@ header {
 .item-box:hover {
     border: none;
     color: #fff;
+    border: 1px solid #37517e;
     background-color: #37517e;
     box-shadow: 0px 1px 10px #37517e;
 }
@@ -273,4 +275,46 @@ header {
     box-shadow: none;
     color: #37517e;
     background-color: #fff;
+}
+
+
+/*---------------------------/
+#Counter
+/-------------------------- */
+
+.wrapper {
+    width: 100%;
+    background-image: url('../images/home/home-2.jpg'), fixed no-repeat;
+    background-size: cover;
+}
+
+.wrapper-container {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    -webkit-column-gap: 10px;
+}
+
+.wrapper-container .counter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+    -webkit-column-gap: 10px;
+}
+
+.wrapper-container .counter p,
+span {
+    color: #37517e;
+    font-weight: 500;
+}
+
+.wrapper-container .counter span {
+    font-size: 1.5rem;
+    font-family: "Raleway", sans-serif;
 }
