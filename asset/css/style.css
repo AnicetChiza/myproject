@@ -31,6 +31,7 @@ h6 {
 
 body {
     font-size: 1rem;
+    color: #141b1fda;
     font-family: "Sulphur Point", sans-serif;
     background-image: url(../images/body-bg.png);
 }
@@ -73,5 +74,5 @@ header {
     border-radius: 50%;
     color: #141b1fda;
     background-color: #fff;
-    box-shadow: 0px 1px 10px #e5e5e5ed;
+    box-shadow: 0px 1px 10px #d1d1d1ed;
 }
