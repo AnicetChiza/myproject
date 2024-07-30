@@ -34,3 +34,31 @@ body {
     font-family: "Kulim Park", sans-serif;
     background-image: url(../images/body-bg.png);
 }
+
+
+/*---------------------------/
+#Header
+/-------------------------- */
+
+header {
+    display: flex;
+    padding: 15px 80px;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.header-list {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    -webkit-column-gap: 15px;
+}
+
+.header-list ul {
+    display: flex;
+    gap: 15px;
+    -webkit-column-gap: 15px;
+}
