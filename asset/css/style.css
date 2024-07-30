@@ -284,17 +284,16 @@ header {
 
 .wrapper {
     width: 100%;
-    background: url('../images/home/home-1.jpg'), fixed no-repeat;
+    background: linear-gradient(to right, #141b1fda 0%, #dde1e78b 100%), url(../images/home/home-1.jpg) fixed top;
     background-size: cover;
 }
 
 .wrapper-container {
-    display: flex;
     gap: 10px;
-    padding: 150px 150px 150px 150px;
+    display: flex;
     -webkit-column-gap: 10px;
     justify-content: space-between;
-    background-color: #000000ba;
+    padding: 150px 100px 100px 150px;
 }
 
 .wrapper-container .counter {
