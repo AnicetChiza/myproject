@@ -223,7 +223,9 @@ header {
     padding: 20px 30px;
     border-radius: 5px;
     height: fit-content;
+    transition-delay: 0.4s;
     border: 1px solid #ddd;
+    transition: 0.8s ease-in-out;
 }
 
 .item-box p {
@@ -247,11 +249,14 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
     box-shadow: 0px 1px 10px #edededed;
 }
 
 .item-box:hover {
+    border: none;
     border: 1px solid #fff;
-    box-shadow: 0px 1px 10px #edededed;
-    background-color: #fff;
+    background-color: #37517e;
+    box-shadow: 0px 1px 10px #37517e;
 }
