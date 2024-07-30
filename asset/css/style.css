@@ -82,7 +82,8 @@ body {
     color: #141b1fda;
     font-weight: 600;
     font-family: "Sulphur Point", sans-serif;
-    background-image: url(../images/body-bg.png);
+    background: url(../images/body-bg.png) fixed no-repeat;
+    background-size: cover;
 }
 
 
