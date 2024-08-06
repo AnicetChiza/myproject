@@ -123,7 +123,7 @@ header {
 }
 
 .header-list ul li a {
-    color: #141b1fda;
+    color: #c0c0c0;
     transition-delay: 0.4s;
     transition: 0.8s ease-in;
 }
