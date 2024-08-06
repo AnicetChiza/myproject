@@ -678,9 +678,15 @@ footer a {
 }
 
 footer .up {
-    display: flex;
-    margin-right: 20px;
-    justify-content: flex-end;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #37517e;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
 }
 
 footer .up i {

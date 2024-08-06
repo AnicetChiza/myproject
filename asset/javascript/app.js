@@ -97,11 +97,20 @@ document.addEventListener('DOMContentLoaded', () => {
 /*------------------------------
 #Up icon
 /-----------------------------*/
-const scroll = document.querySelector('.up');
-scroll.addEventListener('click', () => {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behaviour: 'smooth',
-    })
+
+document.addEventListener('DOMContentLoaded', () => {
+    const scrollUp = document.querySelector('.scrollUp');
+    const homePageHeight = window.innerHeight;
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > homePageHeight) {
+            scrollUp.style.display = 'block';
+        } else {
+            scrollUp.style.display = 'none';
+        }
+    });
+
+    scrollUp.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 });
