@@ -93,3 +93,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setInterval(showNextItem, 9000);
 });
+
+/*------------------------------
+#Up icon
+/-----------------------------*/
+const scroll = document.querySelector('.up');
+scroll.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behaviour: 'smooth',
+    })
+});
