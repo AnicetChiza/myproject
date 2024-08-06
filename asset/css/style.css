@@ -512,8 +512,8 @@ textarea {
     font-size: 0.8rem;
     width: 100%;
     margin-top: 10px;
-    border: 1px solid #cecece94;
     font-family: "Sulphur Point", sans-serif;
+    border: 1px solid hsl(0, 0%, 91%);
 }
 
 .contact-input {
