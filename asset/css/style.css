@@ -321,8 +321,8 @@ span {
 
 .choose-us-details {
     display: grid;
-    gap: 10px;
-    -webkit-column-gap: 10px;
+    gap: 20px;
+    -webkit-column-gap: 20px;
     grid-template-columns: auto auto;
 }
 
