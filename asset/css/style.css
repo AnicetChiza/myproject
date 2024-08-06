@@ -340,3 +340,15 @@ span {
 .lines h6 {
     border: 1px solid #d1d1d1ea;
 }
+
+.choose-textbox {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.choose-textbox div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+}
