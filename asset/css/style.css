@@ -441,3 +441,20 @@ span {
     background-color: #37517e;
     font-family: "Sulphur Point", sans-serif;
 }
+
+
+/*---------------------------/
+#Testimonials
+/-------------------------- */
+
+
+/*---------------------------/
+#Contacts
+/-------------------------- */
+
+.contact-info {
+    display: flex;
+    gap: 15px;
+    -webkit-column-gap: 15px;
+    justify-content: space-between;
+}
