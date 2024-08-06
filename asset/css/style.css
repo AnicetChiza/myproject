@@ -667,3 +667,8 @@ footer p {
     font-size: 0.9rem;
     margin-top: 30px;
 }
+
+footer a {
+    color: #141b1fda;
+    border-bottom: 1px solid #141b1fda;
+}
