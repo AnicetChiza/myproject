@@ -394,3 +394,50 @@ span {
     background-color: #fff;
     box-shadow: 0px 1px 10px #dad9d9e2;
 }
+
+
+/*---------------------------/
+#Newsletter
+/-------------------------- */
+
+.newsletter {
+    width: 100%;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    background: linear-gradient(to right, #141b1fea 0%, #dde1e7a7 100%), url(../images/newsletter1.jpg) fixed top;
+    background-size: cover;
+}
+
+.newsletter div {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.newsletter div input {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+    background: unset;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.newsletter div button {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: #37517e;
+    font-family: "Sulphur Point", sans-serif;
+}
