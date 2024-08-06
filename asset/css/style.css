@@ -410,7 +410,7 @@ span {
     flex-direction: column;
     gap: 10px;
     -webkit-column-gap: 10px;
-    background: linear-gradient(to right, #141b1fea 0%, #dde1e7a7 100%), url(../images/newsletter3.jpg) fixed top;
+    background: linear-gradient(to right, #141b1fea 0%, #dde1e7a7 100%), url(../images/newsletter.jpg) fixed top;
     background-size: cover;
 }
 
