@@ -462,10 +462,13 @@ span {
 }
 
 .contact-info div {
-    display: flex;
     gap: 5px;
-    flex-direction: column;
+    width: 100%;
+    text-align: center;
     -webkit-column-gap: 5px;
+    background-color: #fff;
+    padding: 50px 30px;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
 .contact-info div i {
@@ -473,6 +476,8 @@ span {
     height: 50px;
     color: #fff;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     border-radius: 50%;
     justify-content: center;
