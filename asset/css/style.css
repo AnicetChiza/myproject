@@ -447,6 +447,67 @@ span {
 #Testimonials
 /-------------------------- */
 
+.testimonial-content {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.testimonial-item {
+    text-align: center;
+}
+
+.testimonial-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial-item div {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-item div span {
+    color: #ddd;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.testimonial-item div p {
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.testimonial-item i {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #37517e9a;
+}
+
+.test-btn {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    -webkit-column-gap: 10px;
+}
+
+.test-btn .circle {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.test-btn .circle.active {
+    background-color: #37517e;
+    border: 1px solid #37517e;
+}
+
 
 /*---------------------------/
 #Contacts
