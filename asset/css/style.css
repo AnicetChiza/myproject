@@ -235,21 +235,17 @@ header {
 }
 
 .wave {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     overflow: hidden;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
+    line-height: 0;
 }
 
 .wave svg {
+    display: block;
     width: 100%;
-}
-
-@media screen and (max-width: 950px) {
-    .wave {
-        bottom: 0;
-    }
+    height: auto;
 }
 
 
