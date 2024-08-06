@@ -504,3 +504,43 @@ span {
 .contact-info div:hover a {
     color: #fff;
 }
+
+.contact-input input,
+textarea {
+    outline: none;
+    padding: 15px 15px;
+    font-size: 0.8rem;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #cecece94;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.contact-input {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact-input div {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.contact-input button {
+    border: none;
+    outline: none;
+    background: unset;
+    width: fit-content;
+    color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #37517e;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
+    font-family: "Sulphur Point", sans-serif;
+}
