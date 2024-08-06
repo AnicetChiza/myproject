@@ -455,6 +455,16 @@ span {
 .contact-info {
     display: flex;
     gap: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     -webkit-column-gap: 15px;
     justify-content: space-between;
+}
+
+.contact-info div {
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    flex-direction: column;
+    -webkit-column-gap: 5px;
 }
