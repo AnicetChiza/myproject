@@ -447,8 +447,35 @@ span {
 #Testimonials
 /-------------------------- */
 
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+button.prev,
+button.next {
+    background-color: transparent;
+    color: #37517e;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
 .testimonial-content {
-    width: 100%;
+    width: 80%;
     margin-top: 30px;
 }
 

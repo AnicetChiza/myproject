@@ -50,6 +50,8 @@ function startValueAnimation() {
 document.addEventListener('DOMContentLoaded', () => {
     const testimonials = document.querySelectorAll('.testimonial-item');
     const circles = document.querySelectorAll('.circle');
+    const prevButton = document.querySelector('button.prev');
+    const nextButton = document.querySelector('button.next');
     let currentIndex = 0;
 
     function showItem(index) {
@@ -85,6 +87,9 @@ document.addEventListener('DOMContentLoaded', () => {
             goToItem(index);
         });
     });
+
+    prevButton.addEventListener('click', showPreviousItem);
+    nextButton.addEventListener('click', showNextItem);
 
     setInterval(showNextItem, 9000);
 });
