@@ -464,10 +464,13 @@ span {
 .contact-info div {
     gap: 5px;
     width: 100%;
+    height: fit-content;
     text-align: center;
     -webkit-column-gap: 5px;
     background-color: #fff;
-    padding: 50px 30px;
+    padding: 40px 30px;
+    transition-delay: 0.2s;
+    transition: 0.4s ease-in;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
@@ -482,4 +485,22 @@ span {
     border-radius: 50%;
     justify-content: center;
     background-color: #37517e;
+}
+
+.contact-info div a {
+    color: #000;
+}
+
+.contact-info div:hover {
+    color: #fff;
+    background-color: #37517e;
+}
+
+.contact-info div:hover i {
+    color: #37517e;
+    background-color: #fff;
+}
+
+.contact-info div:hover a {
+    color: #fff;
 }
