@@ -672,3 +672,21 @@ footer a {
     color: #141b1fda;
     border-bottom: 1px solid #141b1fda;
 }
+
+footer .up {
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+footer .up i {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    justify-content: center;
+    background-color: #37517e;
+}
