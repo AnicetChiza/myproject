@@ -79,6 +79,37 @@ h6 {
 
 
 /*---------------------------/
+#Preloader
+/-------------------------- */
+
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/body-bg.png) fixed no-repeat;
+    background-size: cover;
+}
+
+.spinner i {
+    font-size: 2.5rem;
+    color: #37517e;
+    animation: spin 2s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*---------------------------/
 #Body
 /-------------------------- */
 
