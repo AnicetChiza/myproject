@@ -313,3 +313,30 @@ span {
     margin-bottom: 10px;
     font-family: "Raleway", sans-serif;
 }
+
+
+/*---------------------------/
+#Why to choose us
+/-------------------------- */
+
+.choose-us-details {
+    display: grid;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    grid-template-columns: auto auto;
+}
+
+.lines {
+    display: grid;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    grid-template-columns: 5% auto;
+}
+
+.lines h5 {
+    border: 1px solid #000;
+}
+
+.lines h6 {
+    border: 1px solid #d1d1d1ea;
+}
