@@ -352,3 +352,10 @@ span {
     gap: 5px;
     -webkit-column-gap: 5px;
 }
+
+.choose-textbox div i {
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 50%;
+    background-color: #37517e;
+}
