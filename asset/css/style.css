@@ -334,11 +334,37 @@ span {
 }
 
 .lines h5 {
-    border: 1px solid #000;
+    position: relative;
+    height: 1px;
+    background-color: #000;
+}
+
+.lines h5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    transform: scaleY(0.9);
+    transform-origin: top;
 }
 
 .lines h6 {
-    border: 1px solid #d1d1d1ea;
+    position: relative;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.lines h6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    transform: scaleY(0.9);
+    transform-origin: top;
 }
 
 .choose-textbox {
