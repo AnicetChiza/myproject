@@ -218,6 +218,7 @@ header {
 
 .cover-page .padding h2 {
     font-size: 2.5rem;
+    color: white;
 }
 
 .cover-page .padding p {
@@ -225,6 +226,7 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 1.1rem;
+    color: white;
 }
 
 .cover-page .padding a {
