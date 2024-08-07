@@ -608,10 +608,8 @@ button.next {
 
 .contact-info {
     display: flex;
-    gap: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
-    -webkit-column-gap: 15px;
+    gap: 25px;
+    -webkit-column-gap: 25px;
     justify-content: center;
 }
 
