@@ -612,20 +612,17 @@ button.next {
     padding-left: 30px;
     padding-right: 30px;
     -webkit-column-gap: 15px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .contact-info div {
     gap: 5px;
-    width: 100%;
-    height: fit-content;
     text-align: center;
-    -webkit-column-gap: 5px;
-    background-color: #fff;
-    padding: 40px 30px;
+    padding: 20px 25px;
+    height: fit-content;
     transition-delay: 0.2s;
+    -webkit-column-gap: 5px;
     transition: 0.4s ease-in;
-    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
 .contact-info div i {
