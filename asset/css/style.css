@@ -464,6 +464,7 @@ span {
     border-radius: 5px;
     width: fit-content;
     position: relative;
+    overflow: hidden;
     border: 1px solid #ddd;
 }
 
@@ -471,6 +472,7 @@ span {
     width: 280px;
     height: 280px;
     object-fit: cover;
+    transform: scale(1.1);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
