@@ -8,7 +8,29 @@
     display: flex;
     position: relative;
     align-items: center;
+    text-align: center;
+    color: #fff;
+    flex-direction: column;
     justify-content: center;
     background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/home-4.jpg) fixed no-repeat;
     background-size: cover;
+}
+
+.product-cover h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.waves {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waves svg {
+    display: block;
+    width: 100%;
+    height: auto;
 }

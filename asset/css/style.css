@@ -216,12 +216,12 @@ header {
     background-size: cover;
 }
 
-.cover-page .padding h2 {
+.cover-page h2 {
     font-size: 2.5rem;
     color: white;
 }
 
-.cover-page .padding p {
+.cover-page p {
     width: 60%;
     margin-top: 30px;
     margin-bottom: 30px;
