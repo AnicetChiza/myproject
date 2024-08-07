@@ -678,7 +678,8 @@ textarea {
 }
 
 .contact-input {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     margin-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
