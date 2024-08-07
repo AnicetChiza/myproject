@@ -43,3 +43,29 @@
 .prod-page {
     margin-top: 40px;
 }
+
+.prod-page .all-prodct {
+    justify-content: flex-start;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.page {
+    cursor: pointer;
+    color: #37517e;
+    padding: 8px 15px;
+    background-color: #fff;
+    font-family: "Raleway", sans-serif;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
+
+.page-active {
+    color: #fff;
+    background-color: #37517e;
+}
