@@ -522,7 +522,15 @@ button.next {
     justify-content: center;
     transform: translateY(-50%);
     background-color: #fff;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
+
+button.prev:hover,
+button.next:hover {
+    color: #fff;
+    background-color: #37517e;
 }
 
 button.prev {
