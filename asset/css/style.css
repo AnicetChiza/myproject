@@ -12,7 +12,7 @@
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 20px;
+    scroll-padding-top: 25px;
 }
 
 
@@ -611,11 +611,11 @@ button.next:hover {
 }
 
 button.prev {
-    left: 65px;
+    left: 40px;
 }
 
 button.next {
-    right: 65px;
+    right: 40px;
 }
 
 .testimonial-item {
