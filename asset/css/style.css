@@ -452,14 +452,15 @@ span {
 /-------------------------- */
 
 .prod-item {
-    padding: 10px 10px;
+    padding: 15px 15px;
     border-radius: 5px;
+    width: fit-content;
     border: 1px solid #ddd;
 }
 
 .prod-item img {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     object-fit: cover;
 }
 
