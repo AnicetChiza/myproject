@@ -654,6 +654,7 @@ button.next {
 
 .contact-info div:hover {
     color: #fff;
+    transform: scale(1.1);
     background-color: #37517e;
 }
 
