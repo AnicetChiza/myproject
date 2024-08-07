@@ -455,6 +455,7 @@ span {
     padding: 15px 15px;
     border-radius: 5px;
     width: fit-content;
+    position: relative;
     border: 1px solid #ddd;
 }
 
@@ -462,6 +463,35 @@ span {
     width: 280px;
     height: 280px;
     object-fit: cover;
+}
+
+.prod-item span {
+    color: #141b1fda;
+}
+
+.prod-item .price {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.prod-item .prod-details {
+    margin-top: 20px;
+}
+
+.prod-item .prod-details i {
+    width: 40px;
+    height: 40px;
+    color: #37517e;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 69%;
+    right: 10%;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
 
