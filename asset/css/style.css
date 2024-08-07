@@ -448,6 +448,23 @@ span {
 
 
 /*---------------------------/
+#Our products
+/-------------------------- */
+
+.prod-item {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.prod-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/*---------------------------/
 #Newsletter
 /-------------------------- */
 
