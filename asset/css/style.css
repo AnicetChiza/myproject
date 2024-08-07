@@ -451,6 +451,14 @@ span {
 #Our products
 /-------------------------- */
 
+.all-product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    -webkit-column-gap: 15px;
+}
+
 .prod-item {
     padding: 15px 15px;
     border-radius: 5px;
@@ -463,6 +471,8 @@ span {
     width: 280px;
     height: 280px;
     object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .prod-item span {
