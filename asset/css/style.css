@@ -464,7 +464,6 @@ span {
     border-radius: 5px;
     width: fit-content;
     position: relative;
-    overflow: hidden;
     border: 1px solid #ddd;
 }
 
@@ -472,7 +471,6 @@ span {
     width: 280px;
     height: 280px;
     object-fit: cover;
-    transform: scale(1.1);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -504,6 +502,24 @@ span {
     justify-content: center;
     background-color: #fff;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
+
+.see-more {
+    margin: auto;
+    display: flex;
+    color: #fff;
+    padding: 15px 25px;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    gap: 5spx;
+    -webkit-column-gap: 5px;
+    background-color: #37517e;
+}
+
+.see-more a {
+    color: #fff;
 }
 
 
