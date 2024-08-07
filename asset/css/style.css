@@ -12,6 +12,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 20px;
 }
 
 
@@ -42,7 +43,6 @@ h6 {
 .title h2 {
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
     color: #37517e;
@@ -455,6 +455,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    margin-top: -20px;
     justify-content: center;
     -webkit-column-gap: 15px;
 }
@@ -617,10 +618,6 @@ button.next {
     right: 65px;
 }
 
-.testimonial-content {
-    margin-top: 30px;
-}
-
 .testimonial-item {
     text-align: center;
 }
@@ -635,7 +632,7 @@ button.next {
 .testimonial-item div {
     width: 70%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
