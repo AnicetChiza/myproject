@@ -120,6 +120,11 @@
     color: #c4c4c4;
 }
 
+.product-details h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .product-details img {
     width: 350px;
     height: 350px;
