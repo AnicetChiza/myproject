@@ -459,15 +459,16 @@ span {
     -webkit-column-gap: 10px;
 }
 
-.all-pages a {
+.all-pages .other-items {
     color: #37517e;
     padding: 10px 15px;
     background-color: #fff;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
-.page-act {
+.page-item {
     color: #fff;
+    padding: 10px 15px;
     background-color: #37517e;
 }
 
