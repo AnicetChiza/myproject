@@ -144,28 +144,3 @@ window.onclick = function (event) {
 /*----------------------------------
 #View image
 ----------------------------------*/
-
-
-document.addEventListener('DOMContentLoaded', () => {
-    const bigImage = document.querySelectorAll('.show-image');
-    const allImages = document.querySelectorAll('.vieuw-img');
-
-    allImages.forEach(allImages => {
-        allImages.addEventListener('click', function () {
-            const imageSrc = this.src;
-            bigImage.forEach(bigImage => {
-                const imgElement = bigImage.querySelector('img');
-                imgElement.src = imageSrc;
-                bigImage.style.display = 'flex';
-            });
-        });
-    });
-
-    // Add event listener to close the show-image when the exit icon is clicked
-    bigImage.forEach(bigImage => {
-        const exitIcon = bigImage.querySelector('.exit-icon');
-        exitIcon.addEventListener('click', function () {
-            bigImage.style.display = 'none';
-        });
-    });
-});
