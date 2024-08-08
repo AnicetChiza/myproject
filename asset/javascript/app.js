@@ -145,26 +145,29 @@ window.onclick = function (event) {
 #Image moving categories
 ----------------------------------*/
 
-document.querySelectorAll('.bi-chevron-left').forEach(leftArrow => {
-    leftArrow.addEventListener('click', function () {
-        const categorieImages = this.nextElementSibling;
-        if (categorieImages && categorieImages.classList.contains('categorie-images')) {
-            categorieImages.scrollBy({
-                left: -300,
-                behavior: 'smooth'
-            });
-        }
-    });
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const leftArrow = document.querySelector('#left-arrow');
+    const rightArrow = document.querySelector('#right-arrow');
+    const categorieImages = document.querySelector('#categorie-images');
 
-document.querySelectorAll('.bi-chevron-right').forEach(rightArrow => {
-    rightArrow.addEventListener('click', function () {
-        const categorieImages = this.previousElementSibling;
-        if (categorieImages && categorieImages.classList.contains('categorie-images')) {
-            categorieImages.scrollBy({
-                left: 300,
-                behavior: 'smooth'
-            });
-        }
+    if (!leftArrow || !rightArrow || !categorieImages) {
+        console.log('One or more elements are not found');
+        return;
+    }
+
+    leftArrow.addEventListener('click', () => {
+        console.log('Left arrow clicked');
+        categorieImages.scrollBy({
+            left: -300,
+            behavior: 'smooth'
+        });
+    });
+
+    rightArrow.addEventListener('click', () => {
+        console.log('Right arrow clicked');
+        categorieImages.scrollBy({
+            left: 300,
+            behavior: 'smooth'
+        });
     });
 });
