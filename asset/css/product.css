@@ -44,14 +44,10 @@
     margin-top: 40px;
 }
 
-.prod-page .all-prodct {
-    justify-content: flex-start;
-}
-
 .pagination {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 10px;
     -webkit-column-gap: 10px;
 }
