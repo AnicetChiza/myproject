@@ -451,11 +451,30 @@ span {
 #Our products
 /-------------------------- */
 
+.all-pages {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    -webkit-column-gap: 10px;
+}
+
+.all-pages a {
+    color: #37517e;
+    padding: 10px 15px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
+
+.page-act {
+    color: #fff;
+    background-color: #37517e;
+}
+
 .all-product {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    margin-top: -20px;
     justify-content: center;
     -webkit-column-gap: 15px;
 }
