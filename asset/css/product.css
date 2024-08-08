@@ -47,7 +47,7 @@
 .pagination {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
     -webkit-column-gap: 10px;
 }

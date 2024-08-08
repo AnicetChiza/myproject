@@ -455,7 +455,7 @@ span {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
-    justify-content: center;
+    justify-content: flex-end;
     -webkit-column-gap: 10px;
 }
 
