@@ -142,5 +142,29 @@ window.onclick = function (event) {
 };
 
 /*----------------------------------
-#View image
+#Image moving categories
 ----------------------------------*/
+
+document.querySelectorAll('.bi-chevron-left').forEach(leftArrow => {
+    leftArrow.addEventListener('click', function () {
+        const categorieImages = this.nextElementSibling;
+        if (categorieImages && categorieImages.classList.contains('categorie-images')) {
+            categorieImages.scrollBy({
+                left: -300,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+document.querySelectorAll('.bi-chevron-right').forEach(rightArrow => {
+    rightArrow.addEventListener('click', function () {
+        const categorieImages = this.previousElementSibling;
+        if (categorieImages && categorieImages.classList.contains('categorie-images')) {
+            categorieImages.scrollBy({
+                left: 300,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
