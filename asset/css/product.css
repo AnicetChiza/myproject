@@ -82,15 +82,15 @@
     display: flex;
     gap: 20px;
     padding-left: 200px;
-    padding-right: 200px;
+    padding-right: 100px;
     align-items: center;
     -webkit-column-gap: 20px;
     justify-content: space-around;
 }
 
 .product-details img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
 }
 
