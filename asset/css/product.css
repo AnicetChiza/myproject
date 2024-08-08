@@ -71,6 +71,27 @@
 #Product details page
 /------------------------*/
 
+.view-prod {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-details {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    -webkit-column-gap: 20px;
+    grid-template-columns: 50% auto;
+}
+
+.product-details img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
 .cart {
     display: flex;
     margin-top: 20px;
