@@ -241,18 +241,29 @@
 .logout button {
     border: none;
     outline: none;
-    color: #fff;
+    /* color: #fff; */
     padding: 15px 25px;
     border-radius: 25px;
-    background-color: #37517e;
+    color: #37517e;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
     font-family: "Sulphur Point", sans-serif;
+}
+
+.logout button span {
+    color: #37517e;
 }
 
 .user-details {
     display: flex;
     gap: 15px;
+    margin-top: 50px;
     flex-wrap: wrap;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
     -webkit-column-gap: 15px;
+    justify-content: center;
 }
 
 .user-details a {
@@ -303,4 +314,35 @@
     color: #fff;
     box-shadow: none;
     border: 1px dashed #fff;
+}
+
+@media screen and (max-width: 525px) {
+    .user {
+        height: fit-content;
+    }
+    .user-details {
+        margin-top: 80px;
+    }
+    .logout {
+        top: 20px;
+        right: 30px;
+    }
+    .logout button {
+        padding: 10px 20px;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logout {
+        top: 20px;
+        right: 20px;
+    }
+    .user-details {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .user-details a {
+        width: 100%;
+    }
 }
