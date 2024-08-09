@@ -140,34 +140,3 @@ window.onclick = function (event) {
         });
     }
 };
-
-/*----------------------------------
-#Image moving categories
-----------------------------------*/
-
-document.addEventListener('DOMContentLoaded', () => {
-    const leftArrow = document.querySelector('#left-arrow');
-    const rightArrow = document.querySelector('#right-arrow');
-    const categorieImages = document.querySelector('#categorie-images');
-
-    if (!leftArrow || !rightArrow || !categorieImages) {
-        console.log('One or more elements are not found');
-        return;
-    }
-
-    leftArrow.addEventListener('click', () => {
-        console.log('Left arrow clicked');
-        categorieImages.scrollBy({
-            left: -300,
-            behavior: 'smooth'
-        });
-    });
-
-    rightArrow.addEventListener('click', () => {
-        console.log('Right arrow clicked');
-        categorieImages.scrollBy({
-            left: 300,
-            behavior: 'smooth'
-        });
-    });
-});
