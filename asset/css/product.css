@@ -355,6 +355,8 @@
 .profile {
     width: 100%;
     height: 100vh;
+    display: grid;
+    align-items: center;
 }
 
 .user-profil {
@@ -453,8 +455,5 @@
     .user-profil {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 5px;
-        justify-content: space-between;
     }
 }
