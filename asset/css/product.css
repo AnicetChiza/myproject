@@ -419,6 +419,8 @@
 .prof-item {
     margin-top: 15px;
     margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 50% auto;
 }
 
 .prof-item span {
