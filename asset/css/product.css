@@ -457,3 +457,39 @@
         flex-direction: column;
     }
 }
+
+
+/*------------------------/
+#Edit user profile
+/------------------------*/
+
+.edit-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-form {
+    width: 40%;
+}
+
+.edit-form form {
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+}
+
+.edit-form input {
+    border: none;
+    outline: none;
+    background: unset;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.edit-form form .inputs {
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-top: 8px;
+    background-color: #efefef;
+}
