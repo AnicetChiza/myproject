@@ -477,7 +477,9 @@
 .edit-form form {
     border-radius: 10px;
     padding: 10px 15px;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
 .edit-form input {
@@ -492,4 +494,8 @@
     border-radius: 25px;
     margin-top: 8px;
     background-color: #efefef;
+}
+
+.edit-form form .inputs i {
+    color: #37517e;
 }
