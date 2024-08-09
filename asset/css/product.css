@@ -426,3 +426,28 @@
 .prof-item span {
     color: #b4b4b4;
 }
+
+@media screen and (max-width: 980px) {
+    .profil-info,
+    .user-profil {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .profile-details {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .profil-info,
+    .user-profil {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .prof-item {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
