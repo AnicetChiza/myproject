@@ -359,7 +359,9 @@
     align-items: center;
     gap: 5px;
     -webkit-column-gap: 5px;
+    border-radius: 10px;
     justify-content: space-between;
+    border: 1px solid #ddd;
 }
 
 .profil-img {
@@ -375,8 +377,8 @@
 }
 
 .profil-img img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     object-fit: cover;
     border-radius: 50%;
 }
