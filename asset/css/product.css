@@ -382,3 +382,12 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.edit a {
+    color: #37517e;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
