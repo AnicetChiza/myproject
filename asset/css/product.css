@@ -352,9 +352,31 @@
 #User profile
 /------------------------*/
 
+.user-profil {
+    width: 50%;
+    display: flex;
+    padding: 15px 20px;
+    align-items: center;
+    gap: 5px;
+    -webkit-column-gap: 5px;
+    justify-content: space-between;
+}
+
+.profil-img {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    -webkit-column-gap: 5px;
+}
+
+.profil-img p {
+    color: #b4b4b4;
+    font-size: 0.8rem;
+}
+
 .profil-img img {
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 50%;
 }
