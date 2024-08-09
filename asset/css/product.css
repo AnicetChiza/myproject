@@ -217,3 +217,38 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+/*------------------------/
+#User
+/------------------------*/
+
+.user {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-details {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    -webkit-column-gap: 10px;
+}
+
+.user-details a {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
+
+.user-details span {
+    color: #141b1fda;
+}
