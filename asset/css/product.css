@@ -499,3 +499,12 @@
 .edit-form form .inputs i {
     color: #37517e;
 }
+
+.edit-form .input-sub {
+    margin-top: 8px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #37517e;
+}
