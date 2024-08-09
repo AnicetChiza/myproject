@@ -352,6 +352,14 @@
 #User profile
 /------------------------*/
 
+.profile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .user-profil {
     width: 50%;
     display: flex;
