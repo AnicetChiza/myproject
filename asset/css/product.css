@@ -233,9 +233,9 @@
 
 .user-details {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     flex-wrap: wrap;
-    -webkit-column-gap: 10px;
+    -webkit-column-gap: 15px;
 }
 
 .user-details a {
