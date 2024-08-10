@@ -984,4 +984,7 @@ footer .up i {
         width: 100%;
         padding: 8px;
     }
+    .login-section .login-form {
+        padding: 60px 20px;
+    }
 }
