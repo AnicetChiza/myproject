@@ -855,15 +855,11 @@ footer .up i {
 }
 
 .login-section .login-content {
+    width: 30%;
     padding: 15px;
     border-radius: 10px;
     background-color: #d4dbdf4e;
     box-shadow: 0px 1px 10px rgba(73, 73, 73, 0.114);
-}
-
-.login-section .container {
-    display: grid;
-    grid-template-columns: 50% auto;
 }
 
 .login-section .login-text {
@@ -879,6 +875,7 @@ footer .up i {
 }
 
 .login-section .login-form {
+    width: 100%;
     padding: 60px 25px;
     background-color: #fff;
 }
