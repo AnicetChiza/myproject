@@ -971,3 +971,9 @@ footer .up i {
         padding: 10px;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .login-section .login-content {
+        width: 90%;
+    }
+}
