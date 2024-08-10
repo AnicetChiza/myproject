@@ -876,6 +876,7 @@ footer .up i {
 
 .login-section .login-form {
     width: 100%;
+    border-radius: 5px;
     padding: 60px 35px;
     background-color: #fff;
 }
@@ -981,5 +982,6 @@ footer .up i {
 @media screen and (max-width: 425px) {
     .login-section .login-content {
         width: 100%;
+        padding: 8px;
     }
 }
