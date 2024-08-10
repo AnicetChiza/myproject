@@ -855,7 +855,7 @@ footer .up i {
 }
 
 .login-section .login-content {
-    width: 30%;
+    width: 35%;
     padding: 15px;
     border-radius: 10px;
     background-color: #d4dbdf4e;
@@ -876,7 +876,7 @@ footer .up i {
 
 .login-section .login-form {
     width: 100%;
-    padding: 60px 25px;
+    padding: 60px 35px;
     background-color: #fff;
 }
 
@@ -951,21 +951,23 @@ footer .up i {
 #Media query
 /-------------------------- */
 
+@media screen and (max-width: 1250px) {
+    .login-section .login-content {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .login-section .login-content {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .login-section .login-text {
         padding: 5px 5px;
     }
     .login-section {
         padding: 10px;
-    }
-}
-
-@media screen and (max-width: 630px) {
-    .login-section .container {
-        display: grid;
-        grid-template-columns: auto;
-    }
-    .login-section .login-text {
-        padding: 45px 20px;
     }
 }
