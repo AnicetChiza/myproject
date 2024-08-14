@@ -565,12 +565,14 @@
 
 .delete div {
     color: #a64242;
+    cursor: pointer;
 }
 
 .number {
     display: flex;
     margin-top: 10px;
     gap: 5px;
+    cursor: pointer;
     justify-content: center;
     -webkit-column-gap: 5px;
 }
