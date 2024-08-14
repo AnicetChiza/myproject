@@ -569,7 +569,14 @@
 .payment .status p {
     padding: 5px 15px;
     border-radius: 20px;
-    color: rgb(56, 127, 56);
     background-color: #fff;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
+
+.payment .status .bi-check2-all {
+    color: #387f38;
+}
+
+.payment .status .fail {
+    color: #a64242;
 }
