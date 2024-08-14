@@ -547,3 +547,11 @@
 .user-prod-img span {
     color: #37517e;
 }
+
+.user-prod-container div p {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
