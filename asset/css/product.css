@@ -522,6 +522,7 @@
 .user-prod-container {
     display: flex;
     gap: 5px;
+    text-align: center;
     align-items: center;
     padding-right: 30px;
     -webkit-column-gap: 5px;
