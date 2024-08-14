@@ -150,7 +150,7 @@ const cancelBtn = document.querySelector('.cancelBtn');
 
 deleteBtn.forEach(button => {
     button.addEventListener('click', () => {
-        pop.style.display = 'initial';
+        pop.style.display = 'flex';
     });
 });
 
