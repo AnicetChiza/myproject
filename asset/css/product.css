@@ -582,3 +582,23 @@
 .payment .status .fail {
     color: #a64242;
 }
+
+
+/*------------------------/
+#User dashboard
+/------------------------*/
+
+.user-items {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: flex-end;
+}
+
+.user-items a {
+    padding: 10px 15px;
+    color: #37517e;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
