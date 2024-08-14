@@ -566,3 +566,15 @@
 .delete div {
     color: #a64242;
 }
+
+.number {
+    display: flex;
+    margin-top: 10px;
+    gap: 5px;
+    justify-content: center;
+    -webkit-column-gap: 5px;
+}
+
+.number span {
+    color: #141b1fda;
+}
