@@ -140,3 +140,20 @@ window.onclick = function (event) {
         });
     }
 };
+
+/*----------------------------------
+#Popup
+----------------------------------*/
+const pop = document.querySelector('.popup');
+const deleteBtn = document.querySelectorAll('.delete');
+const cancelBtn = document.querySelector('.cancelBtn');
+
+deleteBtn.forEach(button => {
+    button.addEventListener('click', () => {
+        pop.style.display = 'initial';
+    });
+});
+
+cancelBtn.addEventListener('click', () => {
+    pop.style.display = 'none';
+})
