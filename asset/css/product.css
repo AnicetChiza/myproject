@@ -603,11 +603,11 @@
     align-items: center;
     z-index: 9999;
     justify-content: center;
-    background-color: #000000b1;
+    background-color: #000000cf;
 }
 
 .popup-item {
-    padding: 30px 30px;
+    padding: 40px 40px;
     background-color: #fff;
 }
 
