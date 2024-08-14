@@ -538,3 +538,19 @@
         padding: 10px 15px;
     }
 }
+
+
+/*------------------------/
+#Payment historiy
+/------------------------*/
+
+.payment-container {
+    gap: 5px;
+    display: flex;
+    padding: 20px 35px;
+    text-align: center;
+    -webkit-column-gap: 5px;
+    background-color: #fff;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
+}
