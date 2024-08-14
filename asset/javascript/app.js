@@ -146,7 +146,7 @@ window.onclick = function (event) {
 ----------------------------------*/
 const pop = document.querySelector('.popup');
 const deleteBtn = document.querySelectorAll('.delete');
-const cancelBtn = document.querySelector('.cancelBtn');
+const cancelBtn = document.getElementById('cancelBtn');
 
 deleteBtn.forEach(button => {
     button.addEventListener('click', () => {
