@@ -140,24 +140,3 @@ window.onclick = function (event) {
         });
     }
 };
-
-/*--------------------------/
-#Increase number
----------------------------*/
-
-const minusBtn = document.querySelector('.bi-dash-circle');
-const plusBtn = document.querySelector('.bi-plus-circle');
-const numberDisplay = document.querySelector('.number span');
-
-minusBtn.addEventListener('click', () => {
-    let currentNumber = parseInt(numberDisplay.textContent);
-    if (currentNumber > 0) {
-        numberDisplay.textContent = currentNumber - 1;
-    }
-});
-
-
-plusBtn.addEventListener('click', () => {
-    let currentNumber = parseInt(numberDisplay.textContent);
-    numberDisplay.textContent = currentNumber + 1;
-});
