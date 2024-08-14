@@ -168,11 +168,11 @@ header {
     border-bottom: 1px solid #fff;
 }
 
-.cart {
+.mycart {
     position: relative;
 }
 
-.cart i {
+.mycart i {
     padding: 10px 10px;
     border-radius: 50%;
     color: #141b1fda;
@@ -180,7 +180,7 @@ header {
     box-shadow: 0px 1px 10px #d1d1d1ed;
 }
 
-.cart span {
+.mycart span {
     color: #fff;
     padding: 4px 6px;
     font-weight: 700;
