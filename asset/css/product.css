@@ -508,7 +508,7 @@
     display: flex;
     gap: 10px;
     -webkit-column-gap: 10px;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .user-items a {
