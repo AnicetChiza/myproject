@@ -223,15 +223,6 @@
 #User
 /------------------------*/
 
-.user {
-    height: 100vh;
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .logout {
     position: absolute;
     top: 30px;
@@ -254,75 +245,7 @@
     color: #37517e;
 }
 
-.user-details {
-    display: flex;
-    gap: 15px;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 30px;
-    -webkit-column-gap: 15px;
-    justify-content: center;
-}
-
-.user-details a {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    gap: 10px;
-    -webkit-column-gap: 10px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 15px;
-    color: #37517e;
-    transition-delay: 0.2s;
-    transition: 0.5s ease-in-out;
-    background-color: #fff;
-    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
-}
-
-.user-details a i {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border: 1px solid #fff;
-    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
-}
-
-.user-details span {
-    color: #141b1fda;
-}
-
-.user-details a:hover {
-    color: #fff;
-    transform: scale(1.1);
-    background-color: #37517e;
-}
-
-.user-details a:hover span {
-    color: #fff;
-}
-
-.user-details a:hover i {
-    background: unset;
-    color: #fff;
-    box-shadow: none;
-    border: 1px dashed #fff;
-}
-
 @media screen and (max-width: 525px) {
-    .user {
-        height: fit-content;
-    }
-    .user-details {
-        margin-top: 80px;
-    }
     .logout {
         top: 20px;
         right: 30px;
@@ -337,13 +260,6 @@
     .logout {
         top: 20px;
         right: 20px;
-    }
-    .user-details {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .user-details a {
-        width: 100%;
     }
 }
 
