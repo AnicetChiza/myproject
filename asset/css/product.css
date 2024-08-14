@@ -554,3 +554,14 @@
     justify-content: space-between;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
+
+.payment-container div {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    flex-direction: column;
+}
+
+.payment-container div p {
+    color: #bcbcbc;
+}
