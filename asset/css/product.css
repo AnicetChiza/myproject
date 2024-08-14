@@ -548,7 +548,9 @@
     gap: 5px;
     display: flex;
     padding: 20px 35px;
-    text-align: center;
+    /* text-align: center; */
+    margin-bottom: 5px;
+    border-radius: 5px;
     -webkit-column-gap: 5px;
     background-color: #fff;
     justify-content: space-between;
