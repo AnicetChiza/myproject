@@ -658,6 +658,13 @@ button.next {
     background-color: #37517e;
 }
 
+.add-test input {
+    outline: none;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    font-family: "Sulphur Point", sans-serif;
+}
+
 .testimonial-item {
     text-align: center;
 }
