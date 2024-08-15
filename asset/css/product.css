@@ -631,3 +631,22 @@
     padding: 10px 20px;
     font-family: "Sulphur Point", sans-serif;
 }
+
+
+/*------------------------/
+#Commands
+/------------------------*/
+
+.command input {
+    background: unset;
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.command div {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
