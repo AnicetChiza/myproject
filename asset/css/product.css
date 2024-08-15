@@ -687,27 +687,41 @@ textarea {
 
 .dash-details {
     display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    -webkit-column-gap: 15px;
 }
 
 .dash-details a {
     width: 200px;
     height: 200px;
     display: flex;
-    gap: 20px;
+    gap: 5px;
     align-items: center;
     text-align: center;
     padding: 30px 30px;
+    color: #141b1fda;
     flex-direction: column;
     justify-content: center;
-    -webkit-column-gap: 20px;
+    -webkit-column-gap: 5px;
     background-color: #fff;
+    transition: 0.4s;
+    transition: 0.5s ease-in-out;
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
-.dash-details a span {
-    color: #141b1fda;
+.dash-details a:hover {
+    transform: scale(1.1);
 }
 
 .dash-details a i {
     color: #37517e;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
