@@ -637,10 +637,13 @@
 #Commands
 /------------------------*/
 
-.command input {
+.command input,
+select,
+textarea {
     background: unset;
     padding: 10px 15px;
     width: 100%;
+    margin-top: 10px;
     border: 1px solid #ddd;
     font-family: "Sulphur Point", sans-serif;
 }
@@ -649,4 +652,8 @@
     display: flex;
     gap: 10px;
     -webkit-column-gap: 10px;
+}
+
+.command textarea {
+    height: 130px;
 }
