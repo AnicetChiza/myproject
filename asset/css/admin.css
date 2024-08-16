@@ -36,8 +36,12 @@
 }
 
 .first-bloc nav .activ {
-    color: #141b1fda;
+    color: #37517e;
     background-color: #fff;
+}
+
+.first-bloc nav .activ span {
+    color: #37517e;
 }
 
 
