@@ -4,7 +4,6 @@
 
 .admin-section {
     display: grid;
-    margin-top: 70px;
     grid-template-columns: 20% auto;
 }
 
@@ -12,7 +11,7 @@
     width: 20%;
     position: fixed;
     display: flex;
-    height: 90vh;
+    height: 100vh;
     padding-top: 30px;
     gap: 10px;
     flex-direction: column;
