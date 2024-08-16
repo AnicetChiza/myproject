@@ -21,6 +21,7 @@
 .first-bloc nav a {
     display: flex;
     gap: 10px;
+    border-radius: 20px;
     color: #141b1fda;
     padding: 10px 25px;
     align-items: center;
@@ -44,8 +45,8 @@
 
 .first-bloc nav .activ {
     color: #fff;
-    background-color: #37517e;
     border-radius: 20px;
+    background-color: #37517e;
 }
 
 .first-bloc nav .activ span {
