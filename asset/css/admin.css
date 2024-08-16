@@ -14,15 +14,16 @@
     height: 100vh;
     padding-top: 30px;
     gap: 10px;
+    /* justify-content: center; */
     flex-direction: column;
-    background-color: #141b1fda;
+    /* background-color: #141b1fda; */
     box-shadow: 0px 1px 10px #ececec;
 }
 
 .first-bloc nav a {
     display: flex;
     gap: 10px;
-    color: #fff;
+    color: #141b1fda;
     padding: 10px 25px;
     align-items: center;
     -webkit-column-gap: 10px;
@@ -31,8 +32,12 @@
 }
 
 .first-bloc nav a:hover {
-    color: #141b1fda;
+    color: #37517e;
     background-color: #fff;
+}
+
+.first-bloc nav a:hover span {
+    color: #37517e;
 }
 
 .first-bloc nav .activ {
