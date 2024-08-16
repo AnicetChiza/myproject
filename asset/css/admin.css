@@ -27,6 +27,7 @@
     align-items: center;
     -webkit-column-gap: 10px;
     transition-delay: 0.2s;
+    background-color: #fbf9f9;
     transition: 0.5s ease-in-out;
 }
 
