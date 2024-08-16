@@ -14,9 +14,7 @@
     height: 100vh;
     padding-top: 30px;
     gap: 10px;
-    /* justify-content: center; */
     flex-direction: column;
-    /* background-color: #141b1fda; */
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
@@ -36,21 +34,13 @@
 }
 
 .first-bloc nav a:hover {
-    color: #37517e;
     background-color: #fff;
-}
-
-.first-bloc nav a:hover span {
-    color: #37517e;
+    box-shadow: 0px 2px 10px hsl(0, 0%, 91%);
 }
 
 .first-bloc nav .activ {
-    color: #37517e;
     background-color: #fff;
-}
-
-.first-bloc nav .activ span {
-    color: #37517e;
+    box-shadow: 0px 2px 10px hsl(0, 0%, 91%);
 }
 
 
