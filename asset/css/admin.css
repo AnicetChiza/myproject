@@ -113,17 +113,20 @@
 }
 
 .bloc-content div span {
-    color: #ddd;
-    font-size: 18px;
+    color: #cacaca;
+    font-size: 17px;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
 }
 
 .bloc-content div:hover {
     color: #fff;
-    background-color: #141b1fda;
+    box-shadow: none;
+    transform: scale(1.1);
+    background-color: #37517e;
 }
 
 .bloc-content div:hover i {
     color: #141b1fda;
+    box-shadow: none;
 }
