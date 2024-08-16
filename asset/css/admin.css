@@ -1,0 +1,109 @@
+/* ------------------------- /
+#Admin css page
+/ ------------------------- */
+
+.admin-section {
+    display: grid;
+    margin-top: 70px;
+    grid-template-columns: 20% auto;
+}
+
+.first-bloc nav {
+    width: 20%;
+    position: fixed;
+    display: flex;
+    height: 90vh;
+    padding-top: 30px;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #141b1fda;
+    box-shadow: 0px 1px 10px #ececec;
+}
+
+.first-bloc nav a {
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    padding: 10px 25px;
+    align-items: center;
+    -webkit-column-gap: 10px;
+    transition-delay: 0.2s;
+    transition: 0.5s ease-in-out;
+}
+
+.first-bloc nav a:hover {
+    color: #141b1fda;
+    background-color: #fff;
+}
+
+.first-bloc nav .activ {
+    color: #141b1fda;
+    background-color: #fff;
+}
+
+
+/* ------------------------- /
+#
+/ ------------------------- */
+
+.all-items {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-items .bloc-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 50px;
+    justify-content: center;
+    gap: 30px;
+    -webkit-column-gap: 30px;
+}
+
+.bloc-content div {
+    width: 250px;
+    height: 180px;
+    padding: 10px 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    transition-delay: 0.2s;
+    border-radius: 10px;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 1px 10px #ececec;
+}
+
+.bloc-content div i {
+    padding: 12px 15px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: inset 13px 13px 26px #e3e3e3, inset -13px -13px 26px #ffffff;
+}
+
+.bloc-content div p {
+    font-weight: 500;
+}
+
+.bloc-content div span {
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+.bloc-content div:hover {
+    color: #fff;
+    background-color: #141b1fda;
+}
+
+.bloc-content div:hover i {
+    color: #141b1fda;
+}
