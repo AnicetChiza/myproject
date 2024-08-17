@@ -169,6 +169,8 @@ header {
 }
 
 .mycart {
+    display: flex;
+    align-items: center;
     position: relative;
 }
 
@@ -195,6 +197,21 @@ header {
 .header-color {
     transition: 1s;
     background-color: #37517e;
+}
+
+.online-img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.online-img img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
