@@ -926,6 +926,10 @@ footer .up i {
     box-shadow: 0px 1px 10px rgba(73, 73, 73, 0.114);
 }
 
+.login-section .news {
+    width: 50%;
+}
+
 .login-section .login-text {
     display: flex;
     gap: 10px;
@@ -1017,13 +1021,15 @@ footer .up i {
 /-------------------------- */
 
 @media screen and (max-width: 1250px) {
-    .login-section .login-content {
+    .login-section .login-content,
+    .login-section .news {
         width: 50%;
     }
 }
 
 @media screen and (max-width: 930px) {
-    .login-section .login-content {
+    .login-section .login-content,
+    .login-section .news {
         width: 70%;
     }
 }
@@ -1038,13 +1044,15 @@ footer .up i {
 }
 
 @media screen and (max-width: 620px) {
-    .login-section .login-content {
+    .login-section .login-content,
+    .login-section .news {
         width: 90%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .login-section .login-content {
+    .login-section .login-content,
+    .login-section .news {
         width: 100%;
         padding: 8px;
     }
