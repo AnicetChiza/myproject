@@ -984,7 +984,8 @@ footer .up i {
     background-color: #37517e;
 }
 
-.login-section .login-form input {
+.login-section .login-form input,
+select {
     border: none;
     outline: none;
     background: unset;
