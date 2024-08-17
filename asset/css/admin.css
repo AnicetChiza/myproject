@@ -130,3 +130,13 @@
     color: #141b1fda;
     box-shadow: none;
 }
+
+
+/* ------------------------- /
+#Admin product
+/ ------------------------- */
+
+.admin-prod img {
+    width: 230px;
+    height: 230px;
+}
