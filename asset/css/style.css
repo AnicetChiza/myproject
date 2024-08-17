@@ -199,6 +199,13 @@ header {
     background-color: #37517e;
 }
 
+.online {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    z-index: 10000;
+}
+
 .online-img {
     width: 40px;
     height: 40px;
