@@ -199,6 +199,10 @@ header {
     background-color: #37517e;
 }
 
+.online-img {
+    display: flex;
+}
+
 .online-img img {
     width: 37px;
     height: 37px;
@@ -210,7 +214,7 @@ header {
 
 .online .options {
     position: absolute;
-    top: 60px;
+    top: 65px;
     right: 10px;
     display: flex;
     text-align: center;
