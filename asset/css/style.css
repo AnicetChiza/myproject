@@ -307,8 +307,15 @@ header {
 
 .cover-page .padding a {
     padding: 18px 25px;
-    color: #37517e;
     border-radius: 25px;
+    transition-delay: 0.2s;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+    background-color: #37517e;
+}
+
+.cover-page .padding a:hover {
+    color: #37517e;
     background-color: #fff;
 }
 
