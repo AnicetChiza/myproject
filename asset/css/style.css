@@ -217,8 +217,8 @@ header {
 
 .online .options {
     position: absolute;
-    top: 50px;
-    right: 30px;
+    top: 60px;
+    right: 10px;
     display: flex;
     text-align: center;
     flex-direction: column;
