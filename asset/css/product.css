@@ -593,7 +593,8 @@
     -webkit-column-gap: 10px;
 }
 
-.btn-popup button {
+#cancelBtn,
+#deleteBtn {
     width: 100%;
     border: none;
     cursor: pointer;

@@ -21,7 +21,7 @@
 }
 
 .first-bloc nav a,
-button {
+.logout-admin {
     display: flex;
     gap: 10px;
     border-radius: 20px;
@@ -57,14 +57,14 @@ button {
     color: #fff;
 }
 
-.first-bloc button {
+.first-bloc .logout-admin {
     border: none;
     outline: none;
     color: #37517e;
     font-family: "Sulphur Point", sans-serif;
 }
 
-.first-bloc button span {
+.first-bloc .logout-admin span {
     color: #37517e;
 }
 
