@@ -542,8 +542,18 @@
 .order-cart {
     display: flex;
     gap: 10px;
+    margin-bottom: 30px;
+    align-items: center;
     justify-content: center;
     -webkit-column-gap: 10px;
+}
+
+.order-cart p {
+    color: #37517e;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
 .order-cart button {
@@ -552,7 +562,6 @@
     color: #fff;
     padding: 10px 15px;
     border-radius: 20px;
-    margin-bottom: 30px;
     background-color: #37517e;
     font-family: "Sulphur Point", sans-serif;
 }
