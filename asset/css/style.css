@@ -199,17 +199,18 @@ header {
     background-color: #37517e;
 }
 
-.online {
+
+/* .online {
     position: fixed;
     top: 20px;
     right: 0;
     z-index: 10000;
-}
+} */
 
 .online-img img {
     width: 35px;
     height: 35px;
-    position: absolute;
+    /* position: absolute; */
     object-fit: cover;
     border-radius: 50%;
 }
