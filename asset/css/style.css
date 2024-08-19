@@ -218,6 +218,18 @@ header {
 .online .options {
     position: absolute;
     top: 50px;
+    right: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.online .options a {
+    color: #141b1fda;
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
 }
 
 
