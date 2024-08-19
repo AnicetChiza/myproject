@@ -204,10 +204,11 @@ header {
 }
 
 .online {
+    cursor: pointer;
     position: relative;
 }
 
-.online-img .down-icon {
+.down-icon {
     position: absolute;
     top: 32px;
     right: -2px;
@@ -266,8 +267,8 @@ header {
     color: #37517e;
 }
 
-.online-img .down-icon:hover .options {
-    display: block;
+.online:hover .options {
+    display: flex;
 }
 
 
