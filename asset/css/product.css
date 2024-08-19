@@ -539,6 +539,24 @@
     justify-content: flex-end;
 }
 
+.order-cart {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    -webkit-column-gap: 10px;
+}
+
+.order-cart button {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: #37517e;
+    font-family: "Sulphur Point", sans-serif;
+}
+
 
 /*------------------------/
 #Cart
