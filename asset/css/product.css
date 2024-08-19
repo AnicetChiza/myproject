@@ -72,6 +72,12 @@
     object-fit: cover;
 }
 
+.edit-prod {
+    position: absolute;
+    top: 225px;
+    right: 70px;
+}
+
 .cart {
     display: flex;
     margin-top: 20px;
