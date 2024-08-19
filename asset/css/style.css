@@ -206,17 +206,10 @@ header {
     z-index: 10000;
 }
 
-.online-img {
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-}
-
 .online-img img {
     width: 35px;
     height: 35px;
+    position: absolute;
     object-fit: cover;
     border-radius: 50%;
 }
