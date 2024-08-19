@@ -199,20 +199,13 @@ header {
     background-color: #37517e;
 }
 
-
-/* .online {
-    position: fixed;
-    top: 20px;
-    right: 0;
-    z-index: 10000;
-} */
-
 .online-img img {
-    width: 35px;
-    height: 35px;
-    /* position: absolute; */
+    width: 37px;
+    height: 37px;
+    margin-top: 9px;
     object-fit: cover;
     border-radius: 50%;
+    border: 1px solid #ddd;
 }
 
 .online .options {
@@ -230,6 +223,19 @@ header {
     margin-bottom: 5px;
     padding: 10px 50px;
     background-color: #f4f4f4;
+}
+
+.online .options button {
+    border: none;
+    outline: none;
+    color: #37517e;
+    padding: 10px 50px;
+    background-color: #f4f4f4;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.online .options button span {
+    color: #37517e;
 }
 
 
