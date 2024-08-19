@@ -193,6 +193,14 @@
     transform: translateY(-50%);
 }
 
+.user-date {
+    display: flex;
+    color: #b6b6b6f1;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    justify-content: flex-end;
+}
+
 
 /*------------------------/
 #User
