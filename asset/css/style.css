@@ -231,9 +231,13 @@ header {
     border: 1px solid #ddd;
 }
 
-.online .options {
+.options {
+    display: none;
+}
+
+.online .options div {
     position: absolute;
-    top: 55px;
+    top: 50px;
     right: -60px;
     display: flex;
     text-align: center;
@@ -259,6 +263,10 @@ header {
 
 .online .options button span {
     color: #37517e;
+}
+
+.online-img .down-icon:hover .options {
+    display: initial;
 }
 
 
