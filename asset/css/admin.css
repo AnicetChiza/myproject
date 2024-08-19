@@ -20,7 +20,8 @@
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
-.first-bloc nav a {
+.first-bloc nav a,
+button {
     display: flex;
     gap: 10px;
     border-radius: 20px;
@@ -54,6 +55,17 @@
 
 .first-bloc nav .activ span {
     color: #fff;
+}
+
+.first-bloc button {
+    border: none;
+    outline: none;
+    color: #37517e;
+    font-family: "Sulphur Point", sans-serif;
+}
+
+.first-bloc button span {
+    color: #37517e;
 }
 
 
