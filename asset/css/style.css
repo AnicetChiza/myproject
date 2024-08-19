@@ -218,6 +218,7 @@ header {
     align-items: center;
     justify-content: center;
     color: #37517e;
+    cursor: pointer;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -266,7 +267,7 @@ header {
 }
 
 .online-img .down-icon:hover .options {
-    display: initial;
+    display: block;
 }
 
 
