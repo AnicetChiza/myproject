@@ -203,6 +203,25 @@ header {
     display: flex;
 }
 
+.online {
+    position: relative;
+}
+
+.online-img .down-icon {
+    position: absolute;
+    top: 32px;
+    right: -2px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    color: #37517e;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
 .online-img img {
     width: 37px;
     height: 37px;
