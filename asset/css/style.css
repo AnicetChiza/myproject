@@ -870,6 +870,16 @@ button.next {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 1050px) {
+    .testimonial-item img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
 /*---------------------------/
 #Contacts
 /-------------------------- */
