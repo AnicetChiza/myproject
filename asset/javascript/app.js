@@ -157,3 +157,31 @@ deleteBtn.forEach(button => {
 cancelBtn.addEventListener('click', () => {
     pop.style.display = 'none';
 })
+
+/*----------------------------------
+#Menu
+----------------------------------*/
+document.addEventListener('DOMContentLoaded', () => {
+    const list = document.querySelector('.header-list ul');
+    const exit = document.querySelector('.exit');
+    const menuIcon = document.querySelector('.menu-icon');
+    const overlay = document.querySelector('.overlay');
+
+    if (menuIcon) {
+        menuIcon.addEventListener('click', () => {
+            list.classList.add('active');
+            overlay.classList.add('active');
+            menuIcon.style.display = 'none';
+            exit.style.display = 'inline-block';
+        });
+    }
+
+    if (exit) {
+        exit.addEventListener('click', () => {
+            list.classList.remove('active');
+            overlay.classList.remove('active');
+            exit.style.display = 'none';
+            menuIcon.style.display = 'inline-block';
+        });
+    }
+});

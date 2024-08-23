@@ -195,6 +195,7 @@ header {
 
 .menu {
     display: none;
+    cursor: pointer;
 }
 
 .menu-icon {
@@ -329,6 +330,9 @@ header {
         transform: translateX(-120%);
         gap: 30px;
         -webkit-column-gap: 30px;
+    }
+    .header-list ul.active {
+        transform: translateX(0);
     }
     .menu {
         display: block;
