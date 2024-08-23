@@ -78,6 +78,16 @@ h6 {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 815px) {
+    .padding {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
 /*---------------------------/
 #Preloader
 /-------------------------- */
