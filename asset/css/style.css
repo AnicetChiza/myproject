@@ -500,6 +500,19 @@ span {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 800px) {
+    .wrapper-container {
+        gap: 10px;
+        display: flex;
+        -webkit-column-gap: 10px;
+        justify-content: space-between;
+        padding: 150px 50px 100px 50px;
+    }
+}
+
+
 /*---------------------------/
 #Why to choose us
 /-------------------------- */
