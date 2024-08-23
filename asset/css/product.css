@@ -584,13 +584,21 @@
         margin-right: 10px;
     }
     .user-prod-container::-webkit-scrollbar {
-        width: 1px;
         height: 2px;
     }
     .user-prod-container::-webkit-scrollbar-thumb {
         background-color: #ccc;
         border-radius: 10px;
         border: 1;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .order-cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
 
