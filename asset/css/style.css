@@ -1004,6 +1004,15 @@ button.next {
     }
 }
 
+@media screen and (max-width: 600px) {
+    button.prev,
+    button.next {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    }
+}
+
 
 /*---------------------------/
 #Contacts
