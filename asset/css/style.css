@@ -702,6 +702,15 @@ span {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 1050px) {
+    .newsletter div {
+        width: 50%;
+    }
+}
+
+
 /*---------------------------/
 #Testimonials
 /-------------------------- */
