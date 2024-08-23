@@ -301,6 +301,19 @@ header {
     }
 }
 
+@media screen and (max-width: 750px) {
+    .header-list ul {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        display: flex;
+        padding: 30px 40px;
+        flex-direction: column;
+        background-color: #37517e;
+    }
+}
+
 @media screen and (max-width: 430px) {
     header {
         padding: 15px 15px;
