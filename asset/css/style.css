@@ -752,7 +752,7 @@ span {
 }
 
 .search {
-    width: 20%;
+    width: 30%;
     border: none;
     outline: none;
     padding: 8px 15px;
@@ -821,12 +821,15 @@ span {
 
 /* Media query */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .all-pages {
         display: flex;
         gap: 20px;
         flex-direction: column;
         -webkit-column-gap: 20px;
+    }
+    .search {
+        width: 100%;
     }
 }
 
