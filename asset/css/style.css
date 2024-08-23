@@ -301,6 +301,12 @@ header {
     }
 }
 
+@media screen and (max-width: 430px) {
+    header {
+        padding: 15px 15px;
+    }
+}
+
 
 /*---------------------------/
 #Home-page
@@ -375,6 +381,9 @@ header {
 @media screen and (max-width: 430px) {
     .cover-page h2 {
         font-size: 1.5rem;
+    }
+    .cover-page p {
+        font-size: 1rem;
     }
 }
 
