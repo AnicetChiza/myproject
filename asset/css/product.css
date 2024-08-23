@@ -584,11 +584,13 @@
         margin-right: 10px;
     }
     .user-prod-container::-webkit-scrollbar {
+        width: 1px;
         height: 2px;
     }
     .user-prod-container::-webkit-scrollbar-thumb {
         background-color: #ccc;
         border-radius: 10px;
+        border: 1;
     }
 }
 
