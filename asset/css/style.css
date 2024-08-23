@@ -756,6 +756,12 @@ span {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .newsletter div {
+        width: 80%;
+    }
+}
+
 
 /*---------------------------/
 #Testimonials
