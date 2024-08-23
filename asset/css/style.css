@@ -877,6 +877,9 @@ button.next {
         width: 120px;
         height: 120px;
     }
+    .testimonial-item div {
+        width: 100%;
+    }
 }
 
 
