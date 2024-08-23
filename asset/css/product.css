@@ -657,7 +657,7 @@
 
 @media screen and (max-width: 430px) {
     .popup-item {
-        width: 100%;
+        width: 90%;
         padding: 20px 20px;
     }
 }
