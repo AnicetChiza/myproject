@@ -438,7 +438,6 @@
     gap: 5px;
     display: flex;
     padding: 20px 35px;
-    /* text-align: center; */
     margin-bottom: 5px;
     border-radius: 5px;
     -webkit-column-gap: 5px;
@@ -639,4 +638,26 @@
     cursor: pointer;
     padding: 10px 20px;
     font-family: "Sulphur Point", sans-serif;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 1099px) {
+    .popup-item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .popup-item {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .popup-item {
+        width: 100%;
+        padding: 20px 20px;
+    }
 }
