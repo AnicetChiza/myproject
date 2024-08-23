@@ -419,6 +419,16 @@ header {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 1050px) {
+    .about-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
 /*---------------------------/
 #Counter
 /-------------------------- */
