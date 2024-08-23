@@ -262,7 +262,7 @@ header {
 .online-img img {
     width: 37px;
     height: 37px;
-    margin-top: 9px;
+    margin-top: 7px;
     object-fit: cover;
     border-radius: 50%;
     border: 1px solid #ddd;
