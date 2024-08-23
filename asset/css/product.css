@@ -593,7 +593,7 @@
     }
 }
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 430px) {
     .order-cart {
         display: flex;
         align-items: center;
