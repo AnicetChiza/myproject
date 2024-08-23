@@ -272,6 +272,15 @@ header {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 815px) {
+    header {
+        padding: 15px 30px;
+    }
+}
+
+
 /*---------------------------/
 #Home-page
 /-------------------------- */
