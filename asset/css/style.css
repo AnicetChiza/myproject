@@ -308,6 +308,7 @@ header {
         right: 30px;
         left: 30px;
         width: calc(100% - 60px);
+        height: 80vh;
         display: flex;
         padding: 30px 40px;
         flex-direction: column;
