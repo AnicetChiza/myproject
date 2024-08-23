@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
             list.classList.add('active');
             overlay.classList.add('active');
             menuIcon.style.display = 'none';
-            exit.style.display = 'inline-block';
+            exit.style.display = 'flex';
         });
     }
 
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
             list.classList.remove('active');
             overlay.classList.remove('active');
             exit.style.display = 'none';
-            menuIcon.style.display = 'inline-block';
+            menuIcon.style.display = 'block';
         });
     }
 });
