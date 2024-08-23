@@ -320,12 +320,13 @@ header {
         top: 80px;
         right: 30px;
         left: 30px;
-        width: calc(100% - 60px);
         height: 80vh;
         display: flex;
         padding: 40px 40px;
         flex-direction: column;
+        width: calc(100% - 60px);
         background-color: #37517e;
+        transform: translateX(-120%);
         gap: 30px;
         -webkit-column-gap: 30px;
     }
