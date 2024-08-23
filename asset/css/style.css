@@ -1072,6 +1072,15 @@ textarea {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .contact-input div {
+        display: flex;
+        gap: 0px;
+        flex-direction: column;
+        -webkit-column-gap: 0px;
+    }
+}
+
 
 /*---------------------------/
 #Footer
