@@ -77,6 +77,10 @@ h6 {
     padding-bottom: 30px;
 }
 
+.title h2 {
+    font-size: 28px;
+}
+
 
 /* Media query */
 
@@ -365,6 +369,12 @@ header {
 @media screen and (max-width: 1050px) {
     .cover-page p {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .cover-page h2 {
+        font-size: 1.5rem;
     }
 }
 
