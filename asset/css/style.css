@@ -305,8 +305,9 @@ header {
     .header-list ul {
         position: absolute;
         top: 80px;
-        right: 0;
-        width: 100%;
+        right: 30px;
+        left: 30px;
+        width: calc(100% - 60px);
         display: flex;
         padding: 30px 40px;
         flex-direction: column;
