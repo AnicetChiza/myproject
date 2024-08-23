@@ -1013,10 +1013,12 @@ button.next {
     }
     .add-testimonial {
         position: absolute;
-        top: -45px;
+        top: -25px;
         right: auto;
-        margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .testimonial-content {
+        margin-top: 30px;
     }
 }
 
