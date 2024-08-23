@@ -607,14 +607,15 @@
     }
     .user-prod-container {
         display: flex;
-        width: 120%;
+        width: 130%;
         overflow-x: auto;
+        padding-right: 100px;
         padding-bottom: 10px;
     }
     .user-prod-container>div {
         flex: 0 0 auto;
         min-width: 180px;
-        margin-right: 10px;
+        margin-right: 5px;
     }
     .user-prod-container::-webkit-scrollbar {
         height: 2px;
