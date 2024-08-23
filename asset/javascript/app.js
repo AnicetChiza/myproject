@@ -99,21 +99,26 @@ document.addEventListener('DOMContentLoaded', () => {
 /-----------------------------*/
 
 document.addEventListener('DOMContentLoaded', () => {
-    const scrollUp = document.querySelector('.scrollUp');
+    const scrollUps = document.querySelectorAll('.scrollUp');
     const homePageHeight = window.innerHeight;
 
     window.addEventListener('scroll', () => {
-        if (window.scrollY > homePageHeight) {
-            scrollUp.style.display = 'block';
-        } else {
-            scrollUp.style.display = 'none';
-        }
+        scrollUps.forEach((scrollUp) => {
+            if (window.scrollY > homePageHeight) {
+                scrollUp.style.display = 'block';
+            } else {
+                scrollUp.style.display = 'none';
+            }
+        });
     });
 
-    scrollUp.addEventListener('click', () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+    scrollUps.forEach((scrollUp) => {
+        scrollUp.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     });
 });
+
 
 /*----------------------------------
 #Select size
