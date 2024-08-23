@@ -329,6 +329,7 @@ header {
         background-color: #37517e;
         transform: translateX(-120%);
         gap: 30px;
+        z-index: 2001;
         transition: transform 0.3s ease;
     }
     .header-list ul.active {
@@ -336,11 +337,9 @@ header {
     }
     .menu {
         display: block;
-        /* Show menu icon on mobile */
     }
     .exit {
         display: none;
-        /* Hide by default */
         position: absolute;
         top: 30px;
         right: 25px;
@@ -356,18 +355,16 @@ header {
     }
     .overlay {
         display: none;
-        /* Hide overlay by default */
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100vh;
         background-color: rgba(0, 0, 0, 0.5);
-        z-index: 9000;
+        z-index: 2000;
     }
     .overlay.active {
         display: block;
-        /* Show overlay when active */
     }
 }
 
