@@ -571,15 +571,31 @@
     .user-prod {
         width: 100%;
         overflow-x: hidden;
+        /* Hide any overflow in the parent container */
     }
     .user-prod-container {
-        width: 200%;
         display: flex;
+        width: 100%;
+        /* Ensure the container takes full width */
         overflow-x: auto;
-        white-space: nowrap;
+        /* Enable horizontal scrolling */
+        padding-bottom: 10px;
     }
     .user-prod-container>div {
         flex: 0 0 auto;
+        /* Ensure items don't stretch */
+        min-width: 150px;
+        /* Adjust this to control the size of each item */
+        margin-right: 10px;
+        /* Add some space between items */
+    }
+    /* Optional: Customize scrollbar appearance */
+    .user-prod-container::-webkit-scrollbar {
+        height: 8px;
+    }
+    .user-prod-container::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 10px;
     }
 }
 
