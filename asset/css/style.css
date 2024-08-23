@@ -189,6 +189,14 @@ header {
     border-bottom: 1px solid #fff;
 }
 
+.exit {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
 .menu-icon {
     font-size: 20px;
     color: #fff;
@@ -320,6 +328,9 @@ header {
         background-color: #37517e;
         gap: 30px;
         -webkit-column-gap: 30px;
+    }
+    .menu {
+        display: block;
     }
     .exit {
         display: block;
