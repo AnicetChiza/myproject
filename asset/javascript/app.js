@@ -149,6 +149,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const exit = document.querySelector('.exit');
     const menuIcon = document.querySelector('.menu-icon');
     const overlay = document.querySelector('.overlay');
+    const menuItems = document.querySelectorAll('.header-list ul li a');
+
+    if (!list) console.error('List element not found');
+    if (!exit) console.error('Exit element not found');
+    if (!menuIcon) console.error('Menu icon element not found');
+    if (!overlay) console.error('Overlay element not found');
 
     if (menuIcon) {
         menuIcon.addEventListener('click', () => {
@@ -167,4 +173,13 @@ document.addEventListener('DOMContentLoaded', () => {
             menuIcon.style.display = 'block';
         });
     }
+
+    menuItems.forEach((item) => {
+        item.addEventListener('click', () => {
+            list.classList.remove('active');
+            overlay.classList.remove('active');
+            exit.style.display = 'none';
+            menuIcon.style.display = 'block';
+        });
+    });
 });
