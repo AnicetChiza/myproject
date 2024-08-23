@@ -316,7 +316,7 @@ header {
 
 @media screen and (max-width: 750px) {
     .header-list ul {
-        position: absolute;
+        position: fixed;
         top: 80px;
         right: 30px;
         left: 30px;
