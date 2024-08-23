@@ -1073,6 +1073,13 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
+    .contact-info {
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+        -webkit-column-gap: 25px;
+        justify-content: center;
+    }
     .contact-input div {
         display: flex;
         gap: 0px;
