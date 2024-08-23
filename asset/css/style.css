@@ -969,6 +969,17 @@ textarea {
 }
 
 
+/* Media query */
+
+@media screen and (max-width: 1050px) {
+    .contact-input {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
 /*---------------------------/
 #Footer
 /-------------------------- */
