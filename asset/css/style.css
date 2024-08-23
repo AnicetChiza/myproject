@@ -190,7 +190,7 @@ header {
 }
 
 .menu-icon {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -320,6 +320,14 @@ header {
         background-color: #37517e;
         gap: 30px;
         -webkit-column-gap: 30px;
+    }
+    .exit {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 25px;
+        cursor: pointer;
+        z-index: 2002;
     }
 }
 
