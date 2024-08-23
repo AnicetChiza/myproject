@@ -328,6 +328,14 @@ header {
         right: 25px;
         cursor: pointer;
         z-index: 2002;
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: #37517e;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
     }
 }
 
