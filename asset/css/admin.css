@@ -190,7 +190,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 20px;
-    padding-right: 50px;
+    padding-right: 20px;
     justify-content: center;
     gap: 20px;
     -webkit-column-gap: 20px;
@@ -247,6 +247,14 @@
 .bloc-content div:hover i {
     color: #141b1fda;
     box-shadow: none;
+}
+
+@media screen and (max-width: 860px) {
+    .all-items {
+        margin-top: 100px;
+        margin-bottom: 30px;
+        height: fit-content;
+    }
 }
 
 
