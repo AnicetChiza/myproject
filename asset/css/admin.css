@@ -156,9 +156,21 @@
     }
 }
 
+@media screen and (max-width: 790px) {
+    .newss {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .first-bloc nav {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .newss {
+        width: 100%;
     }
 }
 
