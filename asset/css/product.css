@@ -503,10 +503,6 @@
     color: #387f38;
 }
 
-.payment .status .fail {
-    color: #a64242;
-}
-
 @media screen and (max-width: 1030px) {
     .pay {
         width: 100%;
