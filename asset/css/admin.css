@@ -75,10 +75,10 @@
             grid-template-columns: auto;
         }
         .first-bloc nav {
+            position: fixed;
             right: 100px;
             left: 0px;
-            display: none;
-            width: calc(100% - 700px);
+            width: 40%;
             transform: translateX(-120%);
             z-index: 2001;
             transition: transform 0.3s ease;
