@@ -91,8 +91,8 @@
             justify-content: flex-end;
         }
         .menu-dash .hamburger {
-            width: 50px;
-            height: 50px;
+            width: 40px;
+            height: 40px;
             cursor: pointer;
             border-radius: 50%;
             margin-right: 50px;
@@ -108,7 +108,7 @@
             display: none;
             position: absolute;
             top: 30px;
-            right: 25px;
+            right: 60px;
             cursor: pointer;
             z-index: 2002;
             width: 30px;
