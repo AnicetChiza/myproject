@@ -288,6 +288,11 @@
     height: 230px;
 }
 
+.all-prod-admin .prod-details h4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
 
 /* ---------------------------- /
 #Payment history admin
