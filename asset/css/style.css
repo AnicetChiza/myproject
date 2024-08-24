@@ -755,7 +755,7 @@ span {
     width: 30%;
     border: none;
     outline: none;
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-radius: 20px;
     background-color: #fff;
     font-family: "Sulphur Point", sans-serif;
@@ -834,6 +834,9 @@ span {
 }
 
 @media screen and (max-width: 480px) {
+    .prod-item {
+        width: 100%;
+    }
     .prod-item img {
         width: 100%;
     }
