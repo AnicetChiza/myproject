@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             list.classList.remove('active');
             overlay.classList.remove('active');
             exit.style.display = 'none';
-            menuIcon.style.display = 'block';
+            menuIcon.style.display = 'flex';
         });
     }
 });
