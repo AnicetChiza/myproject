@@ -1421,7 +1421,7 @@ select {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 470px) {
     .login-section .login-content,
     .login-section .news {
         width: 100%;
