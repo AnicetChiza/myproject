@@ -96,7 +96,7 @@
     .menu-dash {
         position: absolute;
         top: 0px;
-        right: -30px;
+        right: 0px;
         display: flex;
     }
     .menu-dash .hamburger {
@@ -104,7 +104,7 @@
         height: 40px;
         cursor: pointer;
         border-radius: 50%;
-        margin-right: 50px;
+        margin-right: 20px;
         margin-top: 30px;
         font-size: 20px;
         display: flex;
@@ -272,7 +272,6 @@
     margin-top: 70px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 30px;
 }
 
 .pay-container {
@@ -332,7 +331,7 @@
     }
     .pay-container>div {
         flex: 0 0 auto;
-        min-width: 180px;
+        min-width: 150px;
         margin-right: 10px;
     }
     .pay-container::-webkit-scrollbar-thumb {
