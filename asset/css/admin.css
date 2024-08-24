@@ -262,6 +262,10 @@
 #Payment history admin
 ------------------------------ */
 
+.payment {
+    margin-top: 70px;
+}
+
 .pay-container {
     gap: 5px;
     display: flex;
