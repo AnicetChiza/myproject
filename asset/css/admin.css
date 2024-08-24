@@ -257,6 +257,12 @@
     }
 }
 
+@media screen and (max-width: 490px) {
+    .bloc-content div {
+        width: 100%;
+    }
+}
+
 
 /* ------------------------- /
 #Admin product
