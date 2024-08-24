@@ -219,6 +219,14 @@
     }
 }
 
+@media screen and (max-width: 400px) {
+    .product-details img {
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+    }
+}
+
 
 /*------------------------/
 #User

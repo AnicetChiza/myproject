@@ -69,6 +69,18 @@
     color: #141b1fda;
 }
 
+@media screen and (max-width: 1080px) {
+    .admin-section {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .first-bloc nav {
+        right: 100px;
+        left: 0px;
+        width: calc(100% - 700px);
+    }
+}
+
 
 /* ------------------------- /
 #
