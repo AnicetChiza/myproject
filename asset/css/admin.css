@@ -86,8 +86,9 @@
         right: 100px;
         left: 0px;
         width: 40%;
-        transform: translateX(-120%);
         z-index: 2001;
+        box-shadow: none;
+        transform: translateX(-120%);
         transition: transform 0.3s ease;
     }
     .first-bloc nav.active {
@@ -145,7 +146,7 @@
 
 @media screen and (max-width: 600px) {
     .first-bloc nav {
-        width: 60%;
+        width: 70%;
     }
 }
 
