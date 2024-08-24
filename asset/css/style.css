@@ -833,7 +833,7 @@ span {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
     .prod-item {
         width: 100%;
     }
