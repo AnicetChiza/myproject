@@ -79,6 +79,12 @@
             left: 0px;
             display: none;
             width: calc(100% - 700px);
+            transform: translateX(-120%);
+            z-index: 2001;
+            transition: transform 0.3s ease;
+        }
+        .first-bloc nav.active {
+            transform: translateX(0);
         }
         .menu-dash {
             display: flex;
