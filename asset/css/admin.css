@@ -92,8 +92,10 @@
             transform: translateX(0);
         }
         .menu-dash {
+            position: absolute;
+            top: 0px;
+            right: 2px;
             display: flex;
-            justify-content: flex-end;
         }
         .menu-dash .hamburger {
             width: 40px;
