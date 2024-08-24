@@ -833,6 +833,12 @@ span {
     }
 }
 
+@media screen and (max-width: 480px) {
+    .prod-item img {
+        width: 100%;
+    }
+}
+
 
 /*---------------------------/
 #Newsletter
