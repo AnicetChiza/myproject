@@ -389,6 +389,7 @@ header {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    -webkit-column-gap: 15px;
     background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/home-4.jpg) fixed no-repeat;
     background-size: cover;
 }

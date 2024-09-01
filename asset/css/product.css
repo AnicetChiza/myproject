@@ -40,12 +40,13 @@
 #Product details page
 /------------------------*/
 
-.view-prod {
+
+/* .view-prod {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .product-details {
     display: flex;
