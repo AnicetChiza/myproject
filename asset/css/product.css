@@ -65,38 +65,6 @@
     background-color: #141b1ff5;
 }
 
-.shirt-item {
-    display: none;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    gap: 15px;
-    -webkit-column-gap: 15px;
-    justify-content: center;
-}
-
-.shirt-item .shirt {
-    position: relative;
-}
-
-.shirt-item .shirt .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.59);
-    color: #fff;
-    font-weight: 700;
-    font-size: 0.8rem;
-}
-
-.shirt-item .shirt:hover .overlay {
-    display: flex;
-}
-
 
 /* .shirt-item .shirt img {
     width: 300px;
@@ -104,18 +72,6 @@
     object-fit: cover;
     background-color: #c2c2c2;
 } */
-
-.all-shirt {
-    display: flex;
-}
-
-.men-shirt {
-    display: none;
-}
-
-.wemen-shirt {
-    display: none;
-}
 
 
 /*------------------------/
