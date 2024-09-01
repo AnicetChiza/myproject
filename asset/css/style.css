@@ -447,10 +447,13 @@ header {
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 485px) {
     .cover-page h2 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
+}
+
+@media screen and (max-width: 430px) {
     .cover-page p {
         font-size: 1rem;
     }
