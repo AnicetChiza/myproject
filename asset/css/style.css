@@ -154,11 +154,12 @@ header {
     position: fixed;
     z-index: 1000;
     padding: 15px 80px;
+    align-items: center;
     justify-content: space-between;
 }
 
 .logo img {
-    width: 50px;
+    width: 100px;
 }
 
 .header-list {
