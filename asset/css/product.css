@@ -65,7 +65,7 @@
     background-color: #141b1ff5;
 }
 
-.shoes-item {
+.shirt-item {
     display: none;
     margin-top: 30px;
     flex-wrap: wrap;
@@ -74,11 +74,11 @@
     justify-content: center;
 }
 
-.shoes-item .shoes {
+.shirt-item .shoes {
     position: relative;
 }
 
-.shoes-item .shoes .overlay {
+.shirt-item .shirt .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -93,26 +93,27 @@
     font-size: 0.8rem;
 }
 
-.shoes-item .shoes:hover .overlay {
+.shirt-item .shirt:hover .overlay {
     display: flex;
 }
 
-.shoes-item .shoes img {
+
+/* .shirt-item .shirt img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     background-color: #c2c2c2;
-}
+} */
 
-.men-shoes {
+.all-shirt {
     display: flex;
 }
 
-.wemen {
+.men-shirt {
     display: none;
 }
 
-.children {
+.wemen-shirt {
     display: none;
 }
 
