@@ -61,17 +61,34 @@
     color: #fff;
     transition-delay: 0.4s;
     transition: 0.8s ease-in-out;
-    background-color: #141b1fda;
-    background-color: #141b1ff5;
+    /* background-color: #141b1fda; */
+    background-color: #37517e;
 }
 
+.shirt-item {
+    display: none;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 15px;
+    -webkit-column-gap: 15px;
+    justify-content: center;
+}
 
-/* .shirt-item .shirt img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    background-color: #c2c2c2;
-} */
+.shoes-item .shirt {
+    position: relative;
+}
+
+.all-shirt {
+    display: flex;
+}
+
+.men-shirt {
+    display: none;
+}
+
+.wemen-shirt {
+    display: none;
+}
 
 
 /*------------------------/
