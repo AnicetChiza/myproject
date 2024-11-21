@@ -235,7 +235,7 @@ header {
     margin-top: 7px;
     object-fit: cover;
     border-radius: 50%;
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
 }
 
 .options {
