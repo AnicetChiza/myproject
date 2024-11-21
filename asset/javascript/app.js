@@ -139,6 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const exit = document.querySelector('.exit');
     const menuIcon = document.querySelector('.menu-icon');
     const overlay = document.querySelector('.overlay');
+    const theBody = document.querySelector('body');
     const menuItems = document.querySelectorAll('.header-list ul li a');
 
     if (!list) console.error('List element not found');
@@ -152,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay.classList.add('active');
             menuIcon.style.display = 'none';
             exit.style.display = 'flex';
+            document.body.classList.add('no-scroll');
         });
     }
 
@@ -161,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay.classList.remove('active');
             exit.style.display = 'none';
             menuIcon.style.display = 'block';
+            document.body.classList.remove('no-scroll');
         });
     }
 

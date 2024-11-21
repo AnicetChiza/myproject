@@ -112,6 +112,10 @@ body {
     background-size: cover;
 }
 
+.no-scroll{
+    overflow: hidden;
+}
+
 
 /*---------------------------/
 #Header
