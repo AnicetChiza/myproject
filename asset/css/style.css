@@ -370,7 +370,7 @@ header {
 }
 
 .cover-page p {
-    width: 60%;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 1.1rem;
@@ -409,12 +409,6 @@ header {
 
 
 /* Media query */
-
-@media screen and (max-width: 1050px) {
-    .cover-page p {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 485px) {
     .cover-page h2 {
