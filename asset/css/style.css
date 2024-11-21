@@ -430,8 +430,8 @@ header {
 .about-container {
     display: flex;
     align-items: center;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .all-items {
@@ -767,7 +767,12 @@ span {
     box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
-.see-more {
+.prod-details a{
+    color: #37517e;
+    border-bottom: 1px solid #37517e;
+}
+
+/* .see-more {
     margin: auto;
     display: flex;
     color: #fff;
@@ -780,11 +785,11 @@ span {
     gap: 5spx;
     -webkit-column-gap: 5px;
     background-color: #37517e;
-}
+} */
 
-.see-more a {
+/* .see-more a {
     color: #fff;
-}
+} */
 
 
 /* Media query */
@@ -857,12 +862,25 @@ span {
     font-family: "Sulphur Point", sans-serif;
 }
 
+.newsletter p{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Media query */
 
 @media screen and (max-width: 1050px) {
     .newsletter div {
         width: 60%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .newsletter p{
+        width: 100%;
     }
 }
 
