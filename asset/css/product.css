@@ -42,6 +42,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
     -webkit-column-gap: 10px;
 }
 
