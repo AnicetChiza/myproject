@@ -1092,21 +1092,23 @@ button.next {
 
 .contact-info {
     display: flex;
-    gap: 25px;
-    -webkit-column-gap: 25px;
+    gap: 15px;
+    -webkit-column-gap: 15px;
     justify-content: center;
 }
 
 .contact-info div {
+    width: 230px;
     gap: 5px;
     color: #37517e;
     text-align: center;
     padding: 20px 25px;
-    height: fit-content;
     transition-delay: 0.2s;
     -webkit-column-gap: 5px;
     transition-delay: 0.1s;
+    border-radius: 5px;
     transition: 0.2s ease-in-out;
+    border: 1px solid hsl(0, 0%, 91%);
 }
 
 .contact-info div i {
@@ -1139,7 +1141,6 @@ button.next {
 
 .contact-info div:hover {
     transform: scale(1.1);
-    box-shadow: 0px 1px 10px hsl(0, 0%, 91%);
 }
 
 .contact-input input,
@@ -1208,6 +1209,19 @@ textarea {
         gap: 0px;
         flex-direction: column;
         -webkit-column-gap: 0px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .contact-info div{
+        width: 100%;
+    }
+    .contact-info div:hover {
+        transform: scale(1);
+    }
+    .contact-info {
+        gap: 10px;
+        -webkit-column-gap: 10px;
     }
 }
 
