@@ -1335,6 +1335,7 @@ footer .up i {
 }
 
 .login-section .login-form .inputs {
+    width: 100%;
     display: flex;
     gap: 5px;
     margin-top: 10px;
@@ -1365,6 +1366,7 @@ footer .up i {
 
 .login-section .login-form input,
 select {
+    width: 100%;
     border: none;
     outline: none;
     background: unset;
