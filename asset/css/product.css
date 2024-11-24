@@ -428,7 +428,7 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 530px) {
     .prof-item {
         display: grid;
         grid-template-columns: auto;
