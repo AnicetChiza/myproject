@@ -133,7 +133,8 @@ header {
 }
 
 .logo img {
-    width: 100px;
+    width: 130px;
+    filter: invert(1) brightness(10);
 }
 
 .header-list {
