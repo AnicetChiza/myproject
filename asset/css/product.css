@@ -315,7 +315,7 @@
 
 @media screen and (max-width: 525px) {
     .logout {
-        top: 20px;
+        top: 40px;
         right: 30px;
     }
     .logout button {
@@ -324,7 +324,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 505px) {
     .logout {
         top: 20px;
         right: 20px;
@@ -601,6 +601,10 @@
 /*------------------------/
 #User dashboard
 /------------------------*/
+
+.livraison span{
+    color: #37517e;
+}
 
 .user-items {
     display: flex;
