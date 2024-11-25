@@ -466,6 +466,7 @@
 }
 
 .edit-form input {
+    width: 100%;
     border: none;
     outline: none;
     background: unset;
@@ -473,6 +474,9 @@
 }
 
 .edit-form form .inputs {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
     padding: 10px 15px;
     border-radius: 25px;
     margin-top: 8px;
